@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.SearchAPI", "SearchAPI\Searchfight.SearchAPI.csproj", "{99EC163D-BAEC-4F2A-9C63-60B85B3618F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.ConsoleApp", "SearchfightConsoleApp\Searchfight.ConsoleApp.csproj", "{9E8DAC85-ADEF-4348-B3A3-D955E84AD0E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.BingEngine", "BingEngine\Searchfight.BingEngine.csproj", "{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.Converters", "Converters\Searchfight.Converters.csproj", "{D8327C70-D8A1-4545-A8F3-F201BB90CF7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.GoogleEngine", "GoogleEngine\Searchfight.GoogleEngine.csproj", "{2ACDEE83-4203-4F2E-88CC-50C404EEED3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Searchfight.Tests", "NUnitTests\Searchfight.Tests.csproj", "{0269C849-6A53-4665-98BD-40009351C708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engines", "Engines", "{F2517586-F9B2-4A0C-A074-CFE1C2DF3119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99EC163D-BAEC-4F2A-9C63-60B85B3618F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EC163D-BAEC-4F2A-9C63-60B85B3618F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EC163D-BAEC-4F2A-9C63-60B85B3618F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EC163D-BAEC-4F2A-9C63-60B85B3618F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8DAC85-ADEF-4348-B3A3-D955E84AD0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8DAC85-ADEF-4348-B3A3-D955E84AD0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8DAC85-ADEF-4348-B3A3-D955E84AD0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8DAC85-ADEF-4348-B3A3-D955E84AD0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8327C70-D8A1-4545-A8F3-F201BB90CF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8327C70-D8A1-4545-A8F3-F201BB90CF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8327C70-D8A1-4545-A8F3-F201BB90CF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8327C70-D8A1-4545-A8F3-F201BB90CF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACDEE83-4203-4F2E-88CC-50C404EEED3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACDEE83-4203-4F2E-88CC-50C404EEED3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACDEE83-4203-4F2E-88CC-50C404EEED3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACDEE83-4203-4F2E-88CC-50C404EEED3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0269C849-6A53-4665-98BD-40009351C708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0269C849-6A53-4665-98BD-40009351C708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0269C849-6A53-4665-98BD-40009351C708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0269C849-6A53-4665-98BD-40009351C708}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A21783D1-7FDD-4162-A16D-BCC2B73A0BEC} = {F2517586-F9B2-4A0C-A074-CFE1C2DF3119}
+		{D8327C70-D8A1-4545-A8F3-F201BB90CF7A} = {F2517586-F9B2-4A0C-A074-CFE1C2DF3119}
+		{2ACDEE83-4203-4F2E-88CC-50C404EEED3A} = {F2517586-F9B2-4A0C-A074-CFE1C2DF3119}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6D7EF6E-0110-4364-90A8-5E8B71917C99}
+	EndGlobalSection
+EndGlobal
